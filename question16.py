@@ -3,7 +3,9 @@ import numpy as np
 
 def main():
     print("Question 16")
-    mean1, mean2, variance1, variance2 = 0, 5, 1, 1
+    mean1, mean2 = 0, 5 
+    # Variance not used as the value is 1
+    # variance1, variance2 = 1, 1
     x1, x2 = [], []
     num = int(input("Enter number of sample"))
     for i in range(num):
